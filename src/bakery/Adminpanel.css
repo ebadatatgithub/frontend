@@ -1,0 +1,41 @@
+.admin-panel {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .admin-panel h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .admin-panel nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .admin-panel nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .admin-panel nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+  }
+  
+  .admin-panel nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .admin-panel .content {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
