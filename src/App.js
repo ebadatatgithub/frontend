@@ -41,15 +41,14 @@ function App() {
       {/*  */}
       <Head />
       <Routes>
-        <Route path="/" element={<Mywork />} />{" "}
-        <Route path="" element={<Menu />}></Route>
-        <Route path="/Menu" element={<Menu />}></Route>
-        <Route path="/Login" element={<Login />}></Route>
-        // <Route path="/Myform" element={<MyForm />}></Route>
-        // <Route path="/privacypolicy" element={<PrivacyPolicy />}></Route>
-        // <Route path="/Contactus" element={<ContactUs />}></Route>
-        // <Route path="/Det" element={<Det />}></Route>
-        <Route path="/add" element={<ProductForm />}></Route>
+       <Route path="/" element={<Mywork />} />
+       <Route path="/Menu" element={<Menu />}></Route>
+       <Route path="/Login" element={<Login />}></Route>
+       <Route path="/Myform" element={<MyForm />}></Route>
+       <Route path="/privacypolicy" element={<PrivacyPolicy />}></Route>
+       <Route path="/Contactus" element={<ContactUs />}></Route>
+       <Route path="/Det" element={<Det />}></Route>
+       <Route path="/add" element={<ProductForm />}></Route>
         <Route path="/signup" element={<SignupForm />}></Route>
       </Routes>
       <Foot />
